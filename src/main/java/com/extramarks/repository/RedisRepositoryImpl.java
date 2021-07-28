@@ -1,11 +1,11 @@
-package com.michaelcgood.repository;
+package com.extramarks.repository;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.HashOperations;
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.stereotype.Repository;
 
-import com.michaelcgood.model.Movie;
+import com.extramarks.model.Movie;
 
 import java.util.Map;
 import javax.annotation.PostConstruct;

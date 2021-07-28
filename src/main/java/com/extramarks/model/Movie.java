@@ -1,4 +1,4 @@
-package com.michaelcgood.model;
+package com.extramarks.model;
 
 import java.io.Serializable;
 

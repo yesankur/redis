@@ -1,4 +1,4 @@
-package com.michaelcgood.config;
+package com.extramarks.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
@@ -10,9 +10,9 @@ import org.springframework.data.redis.listener.RedisMessageListenerContainer;
 import org.springframework.data.redis.listener.adapter.MessageListenerAdapter;
 import org.springframework.data.redis.serializer.GenericToStringSerializer;
 
-import com.michaelcgood.queue.MessagePublisher;
-import com.michaelcgood.queue.MessagePublisherImpl;
-import com.michaelcgood.queue.MessageSubscriber;
+import com.extramarks.queue.MessagePublisher;
+import com.extramarks.queue.MessagePublisherImpl;
+import com.extramarks.queue.MessageSubscriber;
 
 @Configuration
 @ComponentScan("com.michaelcgood")

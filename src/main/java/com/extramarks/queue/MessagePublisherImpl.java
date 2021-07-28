@@ -1,4 +1,4 @@
-package com.michaelcgood.queue;
+package com.extramarks.queue;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.RedisTemplate;

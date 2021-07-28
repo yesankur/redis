@@ -1,4 +1,4 @@
-package com.michaelcgood.controller;
+package com.extramarks.controller;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -14,8 +14,8 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-import com.michaelcgood.model.Movie;
-import com.michaelcgood.repository.RedisRepository;
+import com.extramarks.model.Movie;
+import com.extramarks.repository.RedisRepository;
 
 @Controller
 @RequestMapping("/")
