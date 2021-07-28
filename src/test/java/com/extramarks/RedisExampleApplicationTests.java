@@ -1,4 +1,4 @@
-package com.michaelcgood;
+package com.extramarks;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
